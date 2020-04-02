@@ -454,6 +454,10 @@ background-color: black;
 	.categorias{
 		padding-left: 5px;
 	}
+
+	.learn-btn{
+		margin:15px 0px 50px -5.8rem;
+	}
 }
 
 
