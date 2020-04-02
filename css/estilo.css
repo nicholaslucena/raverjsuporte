@@ -445,6 +445,11 @@ background-color: black;
 	.email-btn{
 		padding:0px, 10px;
 	}
+
+	.learn-btn{
+		text-align: left;
+		padding:10px 30px 10px 10px;
+	}
 }
 
 
