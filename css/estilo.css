@@ -385,6 +385,9 @@ p{
 
 }
 
+.day-wrap{
+	margin:0!important;
+}
 
 
 /* FOOTER /////////////////////////////////*/
@@ -396,6 +399,7 @@ p{
 	font-size: 14px;
 	list-style:none;
 	margin-top:5px;
+	padding:0px!important;
 	text-align: center;
 }
 
@@ -426,13 +430,21 @@ background-color: black;
 
 }
 
+/* BREAKS /////////////////////////////////*/
 
-/*/////////////////////////////////////////////
-//////////////////////////////////////////////
-   ___   ___   ____ ___    __ __   ____
-  / _ ) / _ \ / __// _ |  / //_/  / __/
- / _  |/ , _// _/ / __ | / ,<     _\ \  
-/____//_/|_|/___//_/ |_|/_/|_|  /___/
+@media(max-width: 576px){
 
-//////////////////////////////////////////
-///////////////////////////////////////*/
+	.corrido, .section-header, .lineup ul, .data{
+		text-align: left;
+	}
+
+	.coletivo{
+		margin-left:15px;
+	}
+
+	.email-btn{
+		padding:0px, 10px;
+	}
+}
+
+
