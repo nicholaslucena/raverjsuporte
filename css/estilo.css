@@ -123,6 +123,13 @@ p{
 
 }
 
+.contador, .counter{
+	font-family: '73', sans-serif;
+	font-size:21px;
+	color:black;
+	text-align: center;
+	text-transform: uppercase;
+}
 
 /* HEADERS /////////////////////////////////*/
 
@@ -457,6 +464,17 @@ background-color: black;
 
 	.learn-btn{
 		margin:15px 0px 50px -5.8rem;
+	}
+
+	.contador{
+		text-align:left;
+		line-height: 24px;
+	}
+
+	.counter{
+		text-align:left;
+		font-family: '93', sans-serif;
+		line-height:10px;
 	}
 }
 
