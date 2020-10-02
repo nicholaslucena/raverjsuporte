@@ -247,6 +247,11 @@ p{
 	margin:20px 0px 0px 0px;
 }
 
+.destaque{
+	background-color:#333;
+	color:#ffdb29;
+}
+
 #bloco2{
 	text-align: right;
 }
@@ -255,16 +260,15 @@ p{
 #bloco2 h3{
 	font-family:'73', sans-serif;
 	font-size:20px;
-	vertical-align: top;
 	text-align:right;
 	text-transform:uppercase;
 	position:relative;
-	margin-top:-120px;
 
 }
 
 #bloco2 p{
 	text-align: right;
+	line-height: 24px;
 }
 
 
