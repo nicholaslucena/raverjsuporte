@@ -49,7 +49,7 @@ html{
 	scroll-behavior: smooth;
 }
 
-p::selection, h1::selection, h2::selection, img::selection{
+p::selection, h1::selection, h2::selection, h3::selection, img::selection{
 	background:black!important;
 	color:#ffdb29;
 
@@ -252,6 +252,11 @@ p{
 	color:#ffdb29;
 }
 
+.destaque::selection{
+	background-color:#ffdb29;
+	color:#333;
+}
+
 #bloco2{
 	text-align: right;
 }
@@ -269,12 +274,13 @@ p{
 #bloco2 p{
 	text-align: right;
 	line-height: 24px;
+	padding:15px 0px 25px 0px;
 }
+
 
 
 #bloco2 .yellow-btn{
 	position:relative;
-	right:10px;
 }
 
 
@@ -542,7 +548,7 @@ background-color: black;
 
 #bloco2 .yellow-btn{
 	position:relative;
-	right:56%;
+	right:54%;
 }
 
 #bloco2 p{
